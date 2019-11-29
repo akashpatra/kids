@@ -20,9 +20,9 @@
     <Button
         android:id="@+id/btnYoutube"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="150dp"
         android:background="@android:color/holo_green_dark"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="180dp"
         android:text="YOUTUBE"
         android:textColor="@android:color/black"
         app:layout_constraintTop_toBottomOf="@id/tvName"
@@ -32,22 +32,11 @@
     <Button
         android:id="@+id/btnNetflix"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="@android:color/holo_blue_dark"
+        android:layout_height="150dp"
+        android:background="@android:color/holo_orange_dark"
         android:text="NETFLIX"
         android:textColor="@android:color/black"
         app:layout_constraintTop_toBottomOf="@id/btnYoutube"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btnPrime"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="@android:color/holo_orange_dark"
-        android:text="PRIME"
-        android:textColor="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@id/btnNetflix"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
